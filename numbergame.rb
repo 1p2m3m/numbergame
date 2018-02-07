@@ -13,9 +13,9 @@ while winner == false
 
 if guess > number then
     puts "Sorry, It's too high"
-    elsif guess < number then
+  elsif guess < number then
     puts "Sorry, It's too low"
-    else
+  else
     puts "#{name} you are correct"
     winner = true
   end
